@@ -1,0 +1,164 @@
+/* Base Styles */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header & Navigation */
+header {
+    border-bottom: 1px solid #333;
+    padding: 15px 20px;
+    background-color: #121212;
+}
+
+.site-title {
+    color: #ff9900;
+    margin: 0;
+    font-size: 24px;
+}
+
+.site-title-home {
+    color: #ff9900;
+    margin: 0 0 10px 0;
+    font-size: 24px;
+}
+
+.nav-link {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-nav {
+    margin-top: 10px;
+}
+
+.back-link {
+    color: #aaa;
+    text-decoration: none;
+}
+
+/* Movie List (Home Page) */
+.movie-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.movie-card {
+    width: 220px;
+    background-color: #1a1a1a;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    text-align: center;
+}
+
+.movie-card .card-link {
+    text-decoration: none;
+    color: white;
+}
+
+.movie-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 6px;
+    background-color: #333;
+    transition: transform 0.3s ease;
+}
+
+.movie-card img:hover {
+    transform: scale(1.05);
+}
+
+.movie-card h4 {
+    margin: 12px 0 5px 0;
+    font-size: 16px;
+    color: #ff9900;
+}
+
+.movie-rating {
+    background-color: #ff9900;
+    color: black;
+    padding: 2px 8px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.movie-footer {
+    margin-top: 12px;
+    border-top: 1px solid #333;
+    padding-top: 8px;
+}
+
+.watch-btn {
+    color: #ff4444;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    margin-top: 80px;
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+    color: #777;
+    border-top: 1px solid #333;
+}
+
+/* Article/Detail Pages */
+main {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.article-title {
+    color: #ff9900;
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.article-meta {
+    color: #888;
+    margin-bottom: 25px;
+}
+
+.article-cover {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    background-color: #333;
+}
+
+.summary-rating {
+    background-color: #ff9900;
+    color: black;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-top: 20px;
+}`
+
+/* Utility */
+.diem-tot {
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.diem-xau {
+    color: #F44336;
+    font-weight: bold;
+}
